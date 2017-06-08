@@ -1,19 +1,24 @@
-#Build Process
+#Build Process to run the app
 
 #Download the folder
--Place it in local web server like htdocs in apache
--open cmd to the path
--run npm install
 
-do modifications in src folder
+Place it in local web server like htdocs in apache
+
+open cmd to the path
+
+run npm install
+
+For development purposes do modifications in src folder
 
 run npm build
 
 dist folder will be created
 
-go to localhost/yourfoldername/dist/
+go to your-localwebserver(localhost)/your-folder-name/dist/
 
 everytime you make a build dist folder will be recreated via gulp build tasks
+
+For the third Chart line chart, the raw data from csv needs to be modified to suit the chart needs, like we need x axis date count for a particular campaign to be plotted, which will be taken up afterwards given the current time constraints.
 
 
 1. Short outline of your approach and any assumptions made on the build task? 
